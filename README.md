@@ -1,53 +1,46 @@
-# Teste para estágio Frontend e Full-Stack
+ *******Teste para estagio Front-end***********
 
-## Sobre a Ellos Design
+TESTE PRATICO FRONT END DEVELOPER
 
-A **Ellos Design** é uma agência de marketing e criação de sites localizada em Guarulhos / SP. Somos uma empresa em constante evolução e sempre estamos abertos para pessoas que gostem de tecnologia e queiram trabalhar na área, mas que principalmente queiram aprender e crescer com a nossa empresa.
+*****Desenvolvimento do projeto***********
 
-## Sobre o teste
+    O projeto foi desenvolvido apenas em HTML, CSS/SCSS e JS. A ideia foi criar uma landingPage para divulgação de adoção de cães utilizando o exemplo template dado.
 
-Este é um teste prático que desenvolvemos para a avaliação dos candidatos participantes de nosso processo seletivo para vagas de Frontend ou Full-Stack.
 
-## Tecnologias para o desafio
+    Como utilizar o  FormSubmit?
 
-Você deve utilizar as seguintes tecnologias para o desenvolvimento do teste:
+    1- Altere o codigo:
+    <!-- susbstituindo esse endereço de email que esta codificado, voce recebera em seu email os dados de contato preenchidos pelo usuario-->
 
-- HTML5
-- CSS
-- JavaScript ou jQuery
-- PHP (Para Full-Stack)
-- MySQL (Para Full-Stack)
+        <form action="https://formsubmit.co/4269e0bcdfc6c56b2382e2fe83a2205e" method="POST" class="form" name="form" id="form_contato">
 
-## O que nos impressionaria no teste
+    2- Ao tentar, fazer o envio dos dados preenchidos no contato, você ira receber um email, no email cadastrado nesse codigo, confirme.
 
-- Utilização de um pré-processador para o CSS (De preferência o Sass)
-- Aplicação de animações em CSS (Ex: Animações ao realizar scroll)
-- Ver o teste rodando em live (Bucket estático S3, Heroku, Firebase Hosting, etc)
-- Documentação do projeto (Com instruções para executar)
+    3- Apos isso voce ira receber todos os dados cadastrados no formulario nesse email.
 
-## O que avaliaremos no seu teste
 
-- Criatividade
-- Organização do código
-- Performance do código
-- Boas práticas de desenvolvimento
-- Documentação do código
-- Adaptação mobile (layout responsivo)
-- Documentação do projeto (Com instruções para executar)
 
-## Etapas para realização do teste
+*********COMO RODAR O SITE?*************
 
-- Faça um [fork](https://github.com/Ellos-Design/teste-frontend-developer/fork) desse projeto em sua conta do GitHub
-- Realize o desafio proposto
-- Faça um push para seu repositório com o desafio implementado
-- Envie um email para (vagas@ellosdesign.com.br) com a URL do seu projeto avisando que você concluiu o teste
+Você pode tanto usar o localhost, utilizando a extensão Live Server do VSCode, quanto acessar a URL: http://devtesteestagio.000webhostapp.com/
 
-## O desafio
 
-Você deverá desenvolver uma landing page seguindo a estrutura exibida na imagem abaixo. Você pode utilizar os textos e imagens de sua preferência para a criação da página.
 
-#### Full-Stack
+*****O que tem no site?*****
 
-Deixar o formulário da landing page funcional, onde ao preencher as informações e clicar para enviar, o formulário será submetido e os dados deverão ser gravados em um banco de dados (Neste caso será necessário nos enviar o arquivo SQL para podermos implementar o banco para avaliação do teste).
+°Form para Contato
 
-![Template da página a ser desenvolvida](https://github.com/Ellos-Design/teste-frontend-developer/blob/master/wireframe.png?raw=true)
+°Sobre a OngX
+
+°Qualidades e Beneficios da OngX
+
+°F.A.Q - Perguntas 
+
+°Rodapé chamando para pessoa preencher o form de contato.
+
+
+*****Animações e extensôes aplicadas no projeto*****
+
+   Para as animações foi utilizado o AOS, que possue diversas animações prontas para uso, basta instalar as bibliotecas no projeto: https://michalsnik.github.io/aos/  
+
+   Para os icons foi utilizada a biblioteca do Bootstrap Icons e FontAwesome, na qual também utilizei suas bibliotecas. Para fonte utilizada, usei a Montserrat do Google Fonts.

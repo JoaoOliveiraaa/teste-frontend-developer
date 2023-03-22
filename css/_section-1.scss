@@ -1,0 +1,141 @@
+#section-1 {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $primary-color;
+}
+
+#information {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5em;
+
+    .whatsapp {
+        font-size: 1.8em;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-inline: 1em;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    i {
+        margin-right: 6px;
+    }
+    img {
+        margin-top: 6px;
+    }
+}
+
+#event-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#product {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    max-width: 850px;
+    margin-right: 80px;
+
+    h1{
+        font-size: 4em;
+        color: white;
+    }
+    p {
+        margin: 8px 0;
+        font-size: 2em;
+    }
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 400px;
+    height: 550px;
+    border-radius: 22px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+    p {
+        font-size: 1.8em;
+        font-weight: bold;
+        
+    }
+
+    .form-group, .form-group-desc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: left;
+        border: 1px solid $tertiary-color;
+        border-radius: 6px;
+        margin: 18px 0;
+        padding: 10px;
+        height: 38px;
+        width: 100%;
+
+        label {
+            white-space: nowrap;
+            font-size: 1.2em;
+            font-weight: 500;
+        }
+        input, textarea {
+            border: none;
+            outline: none;
+            width: 100%;
+            resize: none;
+            margin-left: 4px;
+            font-size: 1em;
+            text-align:start;
+        }
+    }
+
+    .form-group-desc {
+        height: 140px;
+        flex-direction: column;
+
+        label {
+            align-self: flex-start;
+        }
+    }
+
+    .btn {
+        text-decoration: none;
+        display: flex;
+        width: 100%;
+        font-size: 1.4em;
+        font-weight: 500;
+        justify-content: center;
+        text-align: center;
+        border-radius: 6px;
+        border: none;
+        padding: 8px;
+        background-color: $secondary-color;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn:hover {
+        background-color: rgba($secondary-color, 0.6);
+    }
+}

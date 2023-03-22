@@ -1,0 +1,483 @@
+/*CSS GLOBAL - TODA A PAGINA */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*Cabeçalho - HEADER*/
+
+
+#section-1 {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f7c3a2;
+}
+
+#information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5em;
+}
+#information .contato {
+  font-size: 1.8em;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-inline: 1em;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+#information i {
+  margin-right: 6px;
+}
+#information img {
+  margin-top: 6px;
+}
+
+#event-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+#product {
+  color: white;
+  justify-content: center;
+  align-items: center;
+  max-width: 850px;
+  margin-right: 80px;
+}
+#product h1 {
+  font-size: 4em;
+  color: white;
+}
+#product p {
+  margin: 8px 0;
+  font-size: 2em;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 400px;
+  height: 550px;
+  border-radius: 22px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+#form p {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+#form .form-group, #form .form-group-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: left;
+  border: 1px solid #000000;
+  border-radius: 6px;
+  margin: 18px 0;
+  padding: 10px;
+  height: 38px;
+  width: 100%;
+}
+#form .form-group label, #form .form-group-desc label {
+  white-space: nowrap;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+#form .form-group input, #form .form-group textarea, #form .form-group-desc input, #form .form-group-desc textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  resize: none;
+  margin-left: 4px;
+  font-size: 1em;
+  text-align: start;
+}
+#form .form-group-desc {
+  height: 140px;
+  flex-direction: column;
+}
+#form .form-group-desc label {
+  align-self: flex-start;
+}
+#form .btn {
+  text-decoration: none;
+  display: flex;
+  width: 100%;
+  font-size: 1.4em;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  background-color: #f7c3a2;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#form .btn:hover {
+  background-color: rgba(246, 200, 162, 0.6);
+}
+
+/*
+
+About us
+
+*/
+#section-2 {
+  display: flex;
+  flex-direction: row;
+  height: 65vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #29236d;
+}
+#section-2 .image {
+  display: flex;
+  justify-content: center;
+  background-color: #f7c3a2;
+  background-image: url("../imgs/about-us.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 1px solid #f7c3a2;
+  width: 600px;
+  height: 400px;
+  border-radius: 22px;
+}
+
+#about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 500px;
+  height: 380px;
+  margin: 0 30px;
+  justify-content: center;
+  align-items: left;
+}
+#about-us h1 {
+  font-size: 3em;
+}
+#about-us p {
+  font-size: 1.6em;
+  margin-top: 20px;
+}
+
+/* Tela de qualidades da ONG X */
+
+#section-3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7c3a2;
+  height: 80vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 0;
+}
+#section-3 h1 {
+  font-size: 3em;
+}
+#section-3 .btn {
+  text-decoration: none;
+  display: flex;
+  width: 300px;
+  font-size: 1.4em;
+  font-weight: 500;
+  justify-content: center;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  background-color: #f7c3a2;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#section-3 .btn:hover {
+  background-color: #f5ad80;
+}
+
+#benefits {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto;
+  height: 100%;
+  margin: 55px 0;
+}
+#benefits li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#benefits div {
+  width: 250px;
+}
+#benefits i {
+  font-size: 60px;
+  padding: 20px;
+}
+
+/* F.A.Q - PERGUNTAS FREQUENTES */
+
+#section-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+#section-4 h1 {
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+#questions {
+  display: flex;
+  flex-direction: column;
+  border-color: #f5ad80;
+}
+#questions li {
+  display: block;
+  border: 1px solid black;
+  font-size: 1.4em;
+  margin: 16px 0;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+#questions li:hover {
+  box-shadow: 1px 1px 6px rgba(218, 174, 92, 0.6);
+}
+
+/*
+
+
+
+
+/*
+Last Call
+*/
+#section-5 {
+  height: 45vh;
+  background-color: #f7c3a2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#last-call {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 650px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 22px;
+}
+#last-call h1 {
+  color: white;
+  font-size: 3em;
+  margin: 10px 0;
+}
+#last-call p {
+  color: white;
+  font-size: 1.6em;
+}
+
+#call-action {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  width: 600px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#call-action h4 {
+  font-size: 1.3em;
+  margin: 14px 0;
+}
+#call-action p {
+  font-size: 1.2em;
+  width: 80%;
+}
+#call-action .btn {
+  text-decoration: none;
+  display: flex;
+  width: 80%;
+  font-size: 1.4em;
+  font-weight: 600;
+  justify-content: center;
+  text-align: center;
+  border-radius: 6px;
+  border: none;
+  padding: 8px;
+  margin: 32px 0;
+  background-color: #f7c3a2;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#call-action .btn:hover {
+  background-color: rgba(241, 196, 161, 0.6);
+}
+
+
+
+/*
+
+Footer
+
+*/
+#section-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fdc39f;
+  font-weight: 600;
+  height: 5vh;
+}
+
+/*
+
+Mobile Responsive
+
+*/
+@media (max-width: 450px) {
+  /* section 1 */
+  #section-1 {
+    height: auto;
+    width: auto;
+  }
+  #information .whatsapp {
+    font-size: 1em;
+  }
+  #event-description {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+  #product {
+    margin: 26px 0;
+  }
+  #product h1 {
+    font-size: 2em;
+    margin-top: 40px;
+    padding: 12px;
+  }
+  #product p {
+    font-size: 1.2em;
+    padding: 12px;
+  }
+  #form {
+    margin: 22px 12px;
+    padding: 0 20px;
+    width: auto;
+  }
+  /* section 2*/
+  #section-2 {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  #section-2 .image {
+    width: 80%;
+    margin: 12px;
+  }
+  #about-us {
+    width: 100%;
+    padding: 0 12px;
+    margin: 0;
+  }
+  #about-us h1 {
+    font-size: 2em;
+  }
+  #about-us p {
+    font-size: 1.4em;
+  }
+  /* section 3 */
+  #section-3 {
+    height: auto;
+  }
+  #section-3 h1 {
+    font-size: 2em;
+  }
+  #benefits {
+    grid-template-columns: auto;
+    height: auto;
+    width: 100%;
+  }
+  #benefits li {
+    margin: 20px 0;
+    padding: 0;
+  }
+  /* section 4 */
+  #section-4 {
+    margin: 20px 0;
+    height: auto;
+    width: 100%;
+  }
+  #section-4 h1 {
+    margin-top: 20px;
+    font-size: 2em;
+  }
+  #questions {
+    width: 90%;
+  }
+  /* section 5 */
+  #section-5, #last-call, #call-action {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+  }
+  #section-5 h1, #last-call h1, #call-action h1 {
+    font-size: 2em;
+  }
+  #section-5 p, #last-call p, #call-action p {
+    font-size: 1.2em;
+  }
+  #call-action {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  /* section 6 */
+  #section-6 {
+    height: auto;
+    width: 100%;
+    font-size: 0.8em;
+  }
+}
+

@@ -1,0 +1,33 @@
+#section-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    width: 100%;
+
+    h1 {
+        font-size: 3em;
+        margin-bottom: 40px;
+    }
+}
+
+#questions {
+    display: flex;
+    flex-direction: column;
+    border-color: $tertiary-color;
+
+    li {
+        display: block;
+        border: 1px solid black;
+        font-size: 1.4em;
+        margin: 16px 0;
+        padding: 8px 16px;
+        cursor: pointer;
+    }
+
+    li:hover {
+        box-shadow: 1px 1px 6px rgba($tertiary-color, .6);
+    }
+
+}

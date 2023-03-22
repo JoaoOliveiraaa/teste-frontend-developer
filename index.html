@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OngX Adoção de Cães</title>
+
+    <!-- Fontes -->
+    <link rel="shortcut icon" href="imgs/logo1.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="fonts/fonts/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+    <!-- Icons Biblioteca Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">  
+
+    <!-- Animações do AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--BootStrap
+           Vendor CSS-->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel stylesheet href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Iniciando as animações de Scroll do AOS, Utilizando o ONCE: TRUE para que as animações ocorram apenas uma vez.-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+      </script>
+
+
+    <!-- Header -->
+    <header id="section-1">
+        <div id="information"  data-aos="fade-down" data-aos-delay="1600" data-aos-duration="800">
+            <img src="imgs/logo1.png" alt="logo" width="180px" height="100px">
+            <p class="contato">(99) 99999-9999</p>
+        </div>
+        <div id="event-description">
+            <div id="product">
+                <h1  data-aos="fade-up" data-aos-delay="400" data-aos-duration="800">Ajude a gente! Encontre um lar.</h1>
+                <p  data-aos="fade-right" data-aos-delay="1000" data-aos-duration="800">Adote amor e receba amor, dê um lar para um cão abandonado!</p>
+            </div>
+            <div id="form" data-aos="fade-left" data-aos-delay="1600" data-aos-duration="800">
+                <p>Entre em contato!</p>
+                <!-- susbstituindo esse endereço de email que esta codificado, voce recebera em seu email os dados de contato preenchidos pelo usuario-->
+                <form action="https://formsubmit.co/4269e0bcdfc6c56b2382e2fe83a2205e" method="POST" class="form" name="form" id="form_contato">
+                    <div class="form-group">
+                        <label for="name">Nome: </label>
+                        <input type="text" name="name" id="txNome" required minlength="6" maxlength="60" value="" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="email" id="txEmail" minlength="6" maxlength="60" value="" value="">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefone: </label>
+                        <input type="text" name="phone" id="telefone" required minlength="8" value="" value="">
+                    </div>
+                    <div class="form-group-desc">
+                        <label for="description"></label>
+                        <input type="text" name="mensagem" placeholder="Mensagem" id="txMensagem" required maxlength="400" ></input>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                    <input type="submit" class="btn" value="Enviar"> 
+                    
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre -->
+    <section id="section-2">
+                <div class="image"></div>
+        <div id="about-us">
+            <h1 data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" data-aos-anchor="#about-us">Quem somos?</h1>
+            <p data-aos="fade-left" data-aos-delay="700" data-aos-duration="1000" data-aos-anchor="#about-us">A <b>ONG X</b> é uma organização dedicada à adoção de cães. Com anos de experiência, trabalhamos para encontrar lares amorosos e permanentes para cachorros abandonados ou maltratados.</p>
+        </div>
+    </section>
+
+    <!-- Qualidade - Beneficios -->
+    <section id="section-3">
+        <h1>Nós temos:</h1>
+        <ul id="benefits">
+            <li data-aos="zoom-out-right" data-aos-delay="600" data-aos-duration="800" data-aos-anchor="#benefits">
+                <p><i class="fa-solid fa-bone"></i></p>
+                <div>
+                    <h2>Companheirismo</h2>
+                    <p>Eles são excelentes companheiros e muitas vezes se tornam parte da família, oferecendo amor e lealdade incondicionais.</p>
+                </div>
+            </li>
+            <li data-aos="zoom-out-right" data-aos-delay="600" data-aos-duration="800" data-aos-anchor="#benefits">
+                <p><i class="fa-solid fa-bone"></i></p>
+                <div>
+                    <h2>Reduzir estresse</h2>
+                    <p>O simples ato de acariciar um cão pode liberar endorfinas e reduzir a pressão arterial, ajudando a aliviar o estresse dizem estudos.</p>
+                </div>
+            </li>
+            <li data-aos="zoom-out-right" data-aos-delay="1000" data-aos-duration="800" data-aos-anchor="#benefits">
+                <p><i class="fa-solid fa-bone"></i></p>
+                <div>
+                    <h2>Exercício:</h2>
+                    <p>Ter um cão também pode encorajá-lo a ser mais ativo. Os cães precisam de exercício regular, o que é ótimo para a saúde física e mental.</p>
+                </div>
+            </li>
+            <li data-aos="zoom-out-left" data-aos-delay="1000" data-aos-duration="800" data-aos-anchor="#benefits">
+                <p><i class="fa-solid fa-bone"></i></p>
+                <div>
+                    <h2>Socialização</h2>
+                    <p>Ter um cão também pode melhorar a socialização, especialmente se você é um introvertido ou alguém que tem dificuldade em se conectar com os outros.</p>
+                </div>
+            </li>
+            <li data-aos="zoom-out-left" data-aos-delay="1400" data-aos-duration="800" data-aos-anchor="#benefits">
+                <p><i class="fa-solid fa-bone"></i></p>
+                <div>
+                    <h2>Sentido de responsabilidade</h2>
+                    <p>Ter um cão pode ajudar a desenvolver um senso de responsabilidade, especialmente em crianças. O que pode ajudar a desenvolver habilidades de responsabilidade e disciplina.</p>
+                </div>
+            </li>
+            <li data-aos="zoom-out-left" data-aos-delay="1400" data-aos-duration="800" data-aos-anchor="#benefits">
+                <p><i class="fa-solid fa-bone"></i></p>
+                <div>
+                    <h2>Segurança</h2>
+                    <p>Ter um cão pode proporcionar segurança adicional em sua casa. Os cães são naturalmente protetores e podem alertá-lo se algo estiver errado em sua casa ou ao seu redor.</p>
+                </div>
+            </li>
+        </ul>
+        <input type="button"  data-aos="fade-down" data-aos-delay="1800" data-aos-duration="800" data-aos-anchor="#benefits" value="Estou interessado!" class="btn" onClick="document.getElementById('section-1').scrollIntoView({ block: 'end',  behavior: 'smooth' });"/> <!-- Direto com animação para dar PageUp para o formulario-->
+    </section>
+
+    <!-- FAQ - PERGUNTAS FREQUENTES-->
+    <section id="section-4">
+        <h1>Perguntas frequentes</h1>
+        <ul id="questions">
+            <li data-aos-anchor="#questions" data-aos="zoom-out-right" data-aos-delay="400" data-aos-duration="1000">Quais são os principais critérios que as organizações de adoção de cães levam em consideração na hora de selecionar potenciais donos adotivos?</li>
+            <li data-aos-anchor="#questions" data-aos="zoom-out-right" data-aos-delay="600" data-aos-duration="1000">Como é possível preparar um cão adotado para uma nova vida em um lar amoroso e permanente?</li>
+            <li data-aos-anchor="#questions" data-aos="zoom-out-right" data-aos-delay="800" data-aos-duration="1000">Qual é a importância da conscientização sobre a adoção de cães e como ela pode ajudar a reduzir o número de animais abandonados nas ruas?</li>
+            <li data-aos-anchor="#questions" data-aos="zoom-out-right" data-aos-delay="1000" data-aos-duration="1000">Quais são os principais desafios enfrentados pelos donos adotivos e como eles podem superar esses desafios para proporcionar a melhor vida possível para seu cão adotado?</li>
+            <li data-aos-anchor="#questions" data-aos="zoom-out-right" data-aos-delay="1200" data-aos-duration="1000">Como escolher o cão certo para adotar, considerando fatores como personalidade, necessidades de exercício e espaço disponível em casa?</li>
+        </ul>
+    </section>
+
+    <!-- Rodapé chamando novamente para o formulario -->
+    <section id="section-5">
+    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div id="last-call">
+            <h1>Gostou do nosso propósito?</h1>
+            <p>Não perca a chance de levar um animalzinho para casa!</p>
+        </div>
+    </div>
+        <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <div id="call-action">
+                <h4>Preencha o formulário agora mesmo e entre em contato conosco!</h4>
+                <input type="submit" class="btn" value="Entrar em contato" onClick="document.getElementById('section-1').scrollIntoView({ block: 'end',  behavior: 'smooth' });">
+                <p>Iremos entrar em contato com você ainda hoje!</p>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Footer - Rodapé -->
+    <footer id="section-6">
+        <p>ONG X © Todos os Direitos Reservados - 2023</p>
+        <p>CNPJ 12.345.678 - 0001-23 • TERMOS DE USO</p>
+    </footer>
+
+<!-- VENDOR SCRIPT FILES-->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+
+
+</body>
+
+</html>

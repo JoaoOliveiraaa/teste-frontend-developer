@@ -1,0 +1,131 @@
+@media (max-width: 450px) {
+
+    /* section 1 */  
+
+    #section-1 {
+        height: auto;
+        width: auto;
+    }
+
+    #information {
+        .whatsapp {
+            font-size: 1em;
+        }
+    }
+
+    #event-description {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    #product {
+        margin: 26px 0;
+        h1{
+            font-size: 2em;
+            margin-top: 40px;
+            padding: 12px;
+        }
+        p {
+            font-size: 1.2em;
+            padding: 12px;
+        }
+    }
+
+    #form {
+        margin: 22px 12px;
+        padding: 0 20px;
+        width: auto;
+    }
+
+    /* section 2*/
+
+    #section-2 {
+        flex-direction: column-reverse;
+        height: auto;
+
+        .image {
+            width: 80%;
+
+            margin: 12px;
+        }
+    }
+
+    #about-us {
+        width: 100%;
+        padding: 0 12px;
+        margin: 0;
+        h1 {
+            font-size: 2em;
+        }
+        p {
+            font-size: 1.4em;
+        }
+    }
+
+    /* section 3 */
+
+    #section-3 {
+        height: auto;
+
+        h1 {
+            font-size: 2em;
+        }
+    }
+    #benefits {
+        grid-template-columns: auto;
+        height: auto;
+        width: 100%;
+
+        li {
+            margin: 20px 0;
+            padding: 0;
+        }
+    }
+
+    /* section 4 */
+
+    #section-4 {
+        margin: 20px 0;
+        height: auto;
+        width: 100%;
+
+        h1 {
+            margin-top: 20px;
+            font-size: 2em;
+        }
+    }
+
+    #questions {
+        width: 90%;
+    }
+
+    /* section 5 */
+
+    #section-5, #last-call, #call-action {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-top: 20px;
+
+        h1 {
+            font-size: 2em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+    }
+
+    #call-action {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    /* section 6 */
+    
+    #section-6 {
+        height: auto;
+        width: 100%;
+        font-size: 0.8em;
+    }
+}

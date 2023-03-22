@@ -1,0 +1,60 @@
+#section-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: $secondary-color;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0;
+
+    h1 {
+        font-size: 3em;
+    }
+
+    .btn {
+        text-decoration: none;
+        display: flex;
+        width: 300px;
+        font-size: 1.4em;
+        font-weight: 500;
+        justify-content: center;
+        text-align: center;
+        border-radius: 6px;
+        border: none;
+        padding: 8px;
+        background-color: $tertiary-color;
+        color: white;
+        cursor: pointer;
+        transition: 0.4s;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .btn:hover {
+        background-color: #4a4399;
+    }
+}
+
+#benefits {
+    width: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 100%;
+    margin: 55px 0;
+    
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    div {
+        width: 250px;
+    }
+    i {
+        font-size:60px;
+        padding: 20px;
+    }
+}
